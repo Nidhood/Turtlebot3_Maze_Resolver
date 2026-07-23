@@ -1,0 +1,974 @@
+<?xml version="1.0"?>
+<sdf version="1.9">
+  <model name="school_maze" canonical_link="maze_link">
+    <static>true</static>
+
+    <link name="maze_link">
+
+      <pose relative_to="__model__">
+        3.75 -1.25 0.0 0.0 0.0 0.0
+      </pose>
+
+      <collision name="h_0_1_15_collision">
+        <pose>0.250 1.500 0.150 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>7.500 0.030 0.300</size>
+          </box>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+
+      <visual name="h_0_1_15_visual">
+        <pose>0.250 1.500 0.150 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>7.500 0.030 0.300</size>
+          </box>
+        </geometry>
+        <cast_shadows>true</cast_shadows>
+        <material>
+          <ambient>0.010 0.010 0.010 1.0</ambient>
+          <diffuse>0.015 0.015 0.015 1.0</diffuse>
+          <specular>0.080 0.080 0.080 1.0</specular>
+        </material>
+      </visual>
+      <!-- h_1_0_4 -->
+      <collision name="h_1_0_4_collision">
+        <pose>-2.750 1.000 0.150 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>2.500 0.030 0.300</size>
+          </box>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+
+      <visual name="h_1_0_4_visual">
+        <pose>-2.750 1.000 0.150 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>2.500 0.030 0.300</size>
+          </box>
+        </geometry>
+        <cast_shadows>true</cast_shadows>
+        <material>
+          <ambient>0.010 0.010 0.010 1.0</ambient>
+          <diffuse>0.015 0.015 0.015 1.0</diffuse>
+          <specular>0.080 0.080 0.080 1.0</specular>
+        </material>
+      </visual>
+      <!-- h_1_6_7 -->
+      <collision name="h_1_6_7_collision">
+        <pose>-0.500 1.000 0.150 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>1.000 0.030 0.300</size>
+          </box>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+
+      <visual name="h_1_6_7_visual">
+        <pose>-0.500 1.000 0.150 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>1.000 0.030 0.300</size>
+          </box>
+        </geometry>
+        <cast_shadows>true</cast_shadows>
+        <material>
+          <ambient>0.010 0.010 0.010 1.0</ambient>
+          <diffuse>0.015 0.015 0.015 1.0</diffuse>
+          <specular>0.080 0.080 0.080 1.0</specular>
+        </material>
+      </visual>
+      <!-- h_1_9_14 -->
+      <collision name="h_1_9_14_collision">
+        <pose>2.000 1.000 0.150 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>3.000 0.030 0.300</size>
+          </box>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+
+      <visual name="h_1_9_14_visual">
+        <pose>2.000 1.000 0.150 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>3.000 0.030 0.300</size>
+          </box>
+        </geometry>
+        <cast_shadows>true</cast_shadows>
+        <material>
+          <ambient>0.010 0.010 0.010 1.0</ambient>
+          <diffuse>0.015 0.015 0.015 1.0</diffuse>
+          <specular>0.080 0.080 0.080 1.0</specular>
+        </material>
+      </visual>
+      <!-- h_2_0_0 -->
+      <collision name="h_2_0_0_collision">
+        <pose>-3.750 0.500 0.150 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.500 0.030 0.300</size>
+          </box>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+
+      <visual name="h_2_0_0_visual">
+        <pose>-3.750 0.500 0.150 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.500 0.030 0.300</size>
+          </box>
+        </geometry>
+        <cast_shadows>true</cast_shadows>
+        <material>
+          <ambient>0.010 0.010 0.010 1.0</ambient>
+          <diffuse>0.015 0.015 0.015 1.0</diffuse>
+          <specular>0.080 0.080 0.080 1.0</specular>
+        </material>
+      </visual>
+      <!-- h_2_2_7 -->
+      <collision name="h_2_2_7_collision">
+        <pose>-1.500 0.500 0.150 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>3.000 0.030 0.300</size>
+          </box>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+
+      <visual name="h_2_2_7_visual">
+        <pose>-1.500 0.500 0.150 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>3.000 0.030 0.300</size>
+          </box>
+        </geometry>
+        <cast_shadows>true</cast_shadows>
+        <material>
+          <ambient>0.010 0.010 0.010 1.0</ambient>
+          <diffuse>0.015 0.015 0.015 1.0</diffuse>
+          <specular>0.080 0.080 0.080 1.0</specular>
+        </material>
+      </visual>
+      <!-- h_2_11_15 -->
+      <collision name="h_2_11_15_collision">
+        <pose>2.750 0.500 0.150 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>2.500 0.030 0.300</size>
+          </box>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+
+      <visual name="h_2_11_15_visual">
+        <pose>2.750 0.500 0.150 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>2.500 0.030 0.300</size>
+          </box>
+        </geometry>
+        <cast_shadows>true</cast_shadows>
+        <material>
+          <ambient>0.010 0.010 0.010 1.0</ambient>
+          <diffuse>0.015 0.015 0.015 1.0</diffuse>
+          <specular>0.080 0.080 0.080 1.0</specular>
+        </material>
+      </visual>
+      <!-- h_3_0_0 -->
+      <collision name="h_3_0_0_collision">
+        <pose>-3.750 0.000 0.150 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.500 0.030 0.300</size>
+          </box>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+
+      <visual name="h_3_0_0_visual">
+        <pose>-3.750 0.000 0.150 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.500 0.030 0.300</size>
+          </box>
+        </geometry>
+        <cast_shadows>true</cast_shadows>
+        <material>
+          <ambient>0.010 0.010 0.010 1.0</ambient>
+          <diffuse>0.015 0.015 0.015 1.0</diffuse>
+          <specular>0.080 0.080 0.080 1.0</specular>
+        </material>
+      </visual>
+      <!-- h_3_2_4 -->
+      <collision name="h_3_2_4_collision">
+        <pose>-2.250 0.000 0.150 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>1.500 0.030 0.300</size>
+          </box>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+
+      <visual name="h_3_2_4_visual">
+        <pose>-2.250 0.000 0.150 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>1.500 0.030 0.300</size>
+          </box>
+        </geometry>
+        <cast_shadows>true</cast_shadows>
+        <material>
+          <ambient>0.010 0.010 0.010 1.0</ambient>
+          <diffuse>0.015 0.015 0.015 1.0</diffuse>
+          <specular>0.080 0.080 0.080 1.0</specular>
+        </material>
+      </visual>
+      <!-- h_3_6_14 -->
+      <collision name="h_3_6_14_collision">
+        <pose>1.250 0.000 0.150 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>4.500 0.030 0.300</size>
+          </box>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+
+      <visual name="h_3_6_14_visual">
+        <pose>1.250 0.000 0.150 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>4.500 0.030 0.300</size>
+          </box>
+        </geometry>
+        <cast_shadows>true</cast_shadows>
+        <material>
+          <ambient>0.010 0.010 0.010 1.0</ambient>
+          <diffuse>0.015 0.015 0.015 1.0</diffuse>
+          <specular>0.080 0.080 0.080 1.0</specular>
+        </material>
+      </visual>
+      <!-- h_4_1_6 -->
+      <collision name="h_4_1_6_collision">
+        <pose>-2.000 -0.500 0.150 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>3.000 0.030 0.300</size>
+          </box>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+
+      <visual name="h_4_1_6_visual">
+        <pose>-2.000 -0.500 0.150 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>3.000 0.030 0.300</size>
+          </box>
+        </geometry>
+        <cast_shadows>true</cast_shadows>
+        <material>
+          <ambient>0.010 0.010 0.010 1.0</ambient>
+          <diffuse>0.015 0.015 0.015 1.0</diffuse>
+          <specular>0.080 0.080 0.080 1.0</specular>
+        </material>
+      </visual>
+      <!-- h_4_9_14 -->
+      <collision name="h_4_9_14_collision">
+        <pose>2.000 -0.500 0.150 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>3.000 0.030 0.300</size>
+          </box>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+
+      <visual name="h_4_9_14_visual">
+        <pose>2.000 -0.500 0.150 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>3.000 0.030 0.300</size>
+          </box>
+        </geometry>
+        <cast_shadows>true</cast_shadows>
+        <material>
+          <ambient>0.010 0.010 0.010 1.0</ambient>
+          <diffuse>0.015 0.015 0.015 1.0</diffuse>
+          <specular>0.080 0.080 0.080 1.0</specular>
+        </material>
+      </visual>
+      <!-- h_5_2_3 -->
+      <collision name="h_5_2_3_collision">
+        <pose>-2.500 -1.000 0.150 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>1.000 0.030 0.300</size>
+          </box>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+
+      <visual name="h_5_2_3_visual">
+        <pose>-2.500 -1.000 0.150 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>1.000 0.030 0.300</size>
+          </box>
+        </geometry>
+        <cast_shadows>true</cast_shadows>
+        <material>
+          <ambient>0.010 0.010 0.010 1.0</ambient>
+          <diffuse>0.015 0.015 0.015 1.0</diffuse>
+          <specular>0.080 0.080 0.080 1.0</specular>
+        </material>
+      </visual>
+      <!-- h_5_5_5 -->
+      <collision name="h_5_5_5_collision">
+        <pose>-1.250 -1.000 0.150 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.500 0.030 0.300</size>
+          </box>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+
+      <visual name="h_5_5_5_visual">
+        <pose>-1.250 -1.000 0.150 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.500 0.030 0.300</size>
+          </box>
+        </geometry>
+        <cast_shadows>true</cast_shadows>
+        <material>
+          <ambient>0.010 0.010 0.010 1.0</ambient>
+          <diffuse>0.015 0.015 0.015 1.0</diffuse>
+          <specular>0.080 0.080 0.080 1.0</specular>
+        </material>
+      </visual>
+      <!-- h_5_7_14 -->
+      <collision name="h_5_7_14_collision">
+        <pose>1.500 -1.000 0.150 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>4.000 0.030 0.300</size>
+          </box>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+
+      <visual name="h_5_7_14_visual">
+        <pose>1.500 -1.000 0.150 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>4.000 0.030 0.300</size>
+          </box>
+        </geometry>
+        <cast_shadows>true</cast_shadows>
+        <material>
+          <ambient>0.010 0.010 0.010 1.0</ambient>
+          <diffuse>0.015 0.015 0.015 1.0</diffuse>
+          <specular>0.080 0.080 0.080 1.0</specular>
+        </material>
+      </visual>
+      <!-- h_6_0_7 -->
+      <collision name="h_6_0_7_collision">
+        <pose>-2.000 -1.500 0.150 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>4.000 0.030 0.300</size>
+          </box>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+
+      <visual name="h_6_0_7_visual">
+        <pose>-2.000 -1.500 0.150 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>4.000 0.030 0.300</size>
+          </box>
+        </geometry>
+        <cast_shadows>true</cast_shadows>
+        <material>
+          <ambient>0.010 0.010 0.010 1.0</ambient>
+          <diffuse>0.015 0.015 0.015 1.0</diffuse>
+          <specular>0.080 0.080 0.080 1.0</specular>
+        </material>
+      </visual>
+      <!-- h_6_9_15 -->
+      <collision name="h_6_9_15_collision">
+        <pose>2.250 -1.500 0.150 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>3.500 0.030 0.300</size>
+          </box>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+
+      <visual name="h_6_9_15_visual">
+        <pose>2.250 -1.500 0.150 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>3.500 0.030 0.300</size>
+          </box>
+        </geometry>
+        <cast_shadows>true</cast_shadows>
+        <material>
+          <ambient>0.010 0.010 0.010 1.0</ambient>
+          <diffuse>0.015 0.015 0.015 1.0</diffuse>
+          <specular>0.080 0.080 0.080 1.0</specular>
+        </material>
+      </visual>
+      <!-- v_0_0_5 -->
+      <collision name="v_0_0_5_collision">
+        <pose>-4.000 0.000 0.150 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.030 3.000 0.300</size>
+          </box>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+
+      <visual name="v_0_0_5_visual">
+        <pose>-4.000 0.000 0.150 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.030 3.000 0.300</size>
+          </box>
+        </geometry>
+        <cast_shadows>true</cast_shadows>
+        <material>
+          <ambient>0.010 0.010 0.010 1.0</ambient>
+          <diffuse>0.015 0.015 0.015 1.0</diffuse>
+          <specular>0.080 0.080 0.080 1.0</specular>
+        </material>
+      </visual>
+      <!-- v_1_4_5 -->
+      <collision name="v_1_4_5_collision">
+        <pose>-3.500 -1.000 0.150 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.030 1.000 0.300</size>
+          </box>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+
+      <visual name="v_1_4_5_visual">
+        <pose>-3.500 -1.000 0.150 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.030 1.000 0.300</size>
+          </box>
+        </geometry>
+        <cast_shadows>true</cast_shadows>
+        <material>
+          <ambient>0.010 0.010 0.010 1.0</ambient>
+          <diffuse>0.015 0.015 0.015 1.0</diffuse>
+          <specular>0.080 0.080 0.080 1.0</specular>
+        </material>
+      </visual>
+      <!-- v_3_2_2 -->
+      <collision name="v_3_2_2_collision">
+        <pose>-2.500 0.250 0.150 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.030 0.500 0.300</size>
+          </box>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+
+      <visual name="v_3_2_2_visual">
+        <pose>-2.500 0.250 0.150 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.030 0.500 0.300</size>
+          </box>
+        </geometry>
+        <cast_shadows>true</cast_shadows>
+        <material>
+          <ambient>0.010 0.010 0.010 1.0</ambient>
+          <diffuse>0.015 0.015 0.015 1.0</diffuse>
+          <specular>0.080 0.080 0.080 1.0</specular>
+        </material>
+      </visual>
+      <!-- v_3_5_5 -->
+      <collision name="v_3_5_5_collision">
+        <pose>-2.500 -1.250 0.150 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.030 0.500 0.300</size>
+          </box>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+
+      <visual name="v_3_5_5_visual">
+        <pose>-2.500 -1.250 0.150 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.030 0.500 0.300</size>
+          </box>
+        </geometry>
+        <cast_shadows>true</cast_shadows>
+        <material>
+          <ambient>0.010 0.010 0.010 1.0</ambient>
+          <diffuse>0.015 0.015 0.015 1.0</diffuse>
+          <specular>0.080 0.080 0.080 1.0</specular>
+        </material>
+      </visual>
+      <!-- v_4_5_5 -->
+      <collision name="v_4_5_5_collision">
+        <pose>-2.000 -1.250 0.150 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.030 0.500 0.300</size>
+          </box>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+
+      <visual name="v_4_5_5_visual">
+        <pose>-2.000 -1.250 0.150 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.030 0.500 0.300</size>
+          </box>
+        </geometry>
+        <cast_shadows>true</cast_shadows>
+        <material>
+          <ambient>0.010 0.010 0.010 1.0</ambient>
+          <diffuse>0.015 0.015 0.015 1.0</diffuse>
+          <specular>0.080 0.080 0.080 1.0</specular>
+        </material>
+      </visual>
+      <!-- v_8_0_1 -->
+      <collision name="v_8_0_1_collision">
+        <pose>0.000 1.000 0.150 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.030 1.000 0.300</size>
+          </box>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+
+      <visual name="v_8_0_1_visual">
+        <pose>0.000 1.000 0.150 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.030 1.000 0.300</size>
+          </box>
+        </geometry>
+        <cast_shadows>true</cast_shadows>
+        <material>
+          <ambient>0.010 0.010 0.010 1.0</ambient>
+          <diffuse>0.015 0.015 0.015 1.0</diffuse>
+          <specular>0.080 0.080 0.080 1.0</specular>
+        </material>
+      </visual>
+      <!-- v_8_3_3 -->
+      <collision name="v_8_3_3_collision">
+        <pose>0.000 -0.250 0.150 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.030 0.500 0.300</size>
+          </box>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+
+      <visual name="v_8_3_3_visual">
+        <pose>0.000 -0.250 0.150 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.030 0.500 0.300</size>
+          </box>
+        </geometry>
+        <cast_shadows>true</cast_shadows>
+        <material>
+          <ambient>0.010 0.010 0.010 1.0</ambient>
+          <diffuse>0.015 0.015 0.015 1.0</diffuse>
+          <specular>0.080 0.080 0.080 1.0</specular>
+        </material>
+      </visual>
+      <!-- v_8_5_5 -->
+      <collision name="v_8_5_5_collision">
+        <pose>0.000 -1.250 0.150 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.030 0.500 0.300</size>
+          </box>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+
+      <visual name="v_8_5_5_visual">
+        <pose>0.000 -1.250 0.150 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.030 0.500 0.300</size>
+          </box>
+        </geometry>
+        <cast_shadows>true</cast_shadows>
+        <material>
+          <ambient>0.010 0.010 0.010 1.0</ambient>
+          <diffuse>0.015 0.015 0.015 1.0</diffuse>
+          <specular>0.080 0.080 0.080 1.0</specular>
+        </material>
+      </visual>
+      <!-- v_9_2_2 -->
+      <collision name="v_9_2_2_collision">
+        <pose>0.500 0.250 0.150 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.030 0.500 0.300</size>
+          </box>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+
+      <visual name="v_9_2_2_visual">
+        <pose>0.500 0.250 0.150 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.030 0.500 0.300</size>
+          </box>
+        </geometry>
+        <cast_shadows>true</cast_shadows>
+        <material>
+          <ambient>0.010 0.010 0.010 1.0</ambient>
+          <diffuse>0.015 0.015 0.015 1.0</diffuse>
+          <specular>0.080 0.080 0.080 1.0</specular>
+        </material>
+      </visual>
+      <!-- v_9_4_4 -->
+      <collision name="v_9_4_4_collision">
+        <pose>0.500 -0.750 0.150 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.030 0.500 0.300</size>
+          </box>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+
+      <visual name="v_9_4_4_visual">
+        <pose>0.500 -0.750 0.150 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.030 0.500 0.300</size>
+          </box>
+        </geometry>
+        <cast_shadows>true</cast_shadows>
+        <material>
+          <ambient>0.010 0.010 0.010 1.0</ambient>
+          <diffuse>0.015 0.015 0.015 1.0</diffuse>
+          <specular>0.080 0.080 0.080 1.0</specular>
+        </material>
+      </visual>
+      <!-- v_10_1_1 -->
+      <collision name="v_10_1_1_collision">
+        <pose>1.000 0.750 0.150 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.030 0.500 0.300</size>
+          </box>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+
+      <visual name="v_10_1_1_visual">
+        <pose>1.000 0.750 0.150 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.030 0.500 0.300</size>
+          </box>
+        </geometry>
+        <cast_shadows>true</cast_shadows>
+        <material>
+          <ambient>0.010 0.010 0.010 1.0</ambient>
+          <diffuse>0.015 0.015 0.015 1.0</diffuse>
+          <specular>0.080 0.080 0.080 1.0</specular>
+        </material>
+      </visual>
+      <!-- v_12_4_4 -->
+      <collision name="v_12_4_4_collision">
+        <pose>2.000 -0.750 0.150 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.030 0.500 0.300</size>
+          </box>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+
+      <visual name="v_12_4_4_visual">
+        <pose>2.000 -0.750 0.150 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.030 0.500 0.300</size>
+          </box>
+        </geometry>
+        <cast_shadows>true</cast_shadows>
+        <material>
+          <ambient>0.010 0.010 0.010 1.0</ambient>
+          <diffuse>0.015 0.015 0.015 1.0</diffuse>
+          <specular>0.080 0.080 0.080 1.0</specular>
+        </material>
+      </visual>
+      <!-- v_16_0_5 -->
+      <collision name="v_16_0_5_collision">
+        <pose>4.000 0.000 0.150 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.030 3.000 0.300</size>
+          </box>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+
+      <visual name="v_16_0_5_visual">
+        <pose>4.000 0.000 0.150 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.030 3.000 0.300</size>
+          </box>
+        </geometry>
+        <cast_shadows>true</cast_shadows>
+        <material>
+          <ambient>0.010 0.010 0.010 1.0</ambient>
+          <diffuse>0.015 0.015 0.015 1.0</diffuse>
+          <specular>0.080 0.080 0.080 1.0</specular>
+        </material>
+      </visual>
+
+    </link>
+  </model>
+</sdf>
